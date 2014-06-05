@@ -15,6 +15,10 @@ QR Code Generator for JavaScript
 http://d-project.googlecode.com/svn/trunk/misc/qrcode/js/
 を利用して FileMaker の値から QR コードを作成します。
 
+## InfinitySlideControl
+無限スライドコントロール  
+3枚のスライドコントロールパネルを使って擬似的な無限スライドコントロールを作成します。
+
 # LICENSE
 The MIT License
 Copyright © 2012-2014 Genecom, Inc. All Rights Reserved.
