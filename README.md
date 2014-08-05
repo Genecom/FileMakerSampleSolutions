@@ -19,6 +19,14 @@ http://d-project.googlecode.com/svn/trunk/misc/qrcode/js/
 無限スライドコントロール  
 3枚のスライドコントロールパネルを使って擬似的な無限スライドコントロールを作成します。
 
+## PayPalHere for FileMaker
+PayPal Here API
+https://github.com/paypal/here-sideloader-api-samples
+を利用して FileMaker Go から [PayPal Here](https://itunes.apple.com/jp/app/paypal-here/id505911015?mt=8) を呼び出します 。
+PayPal Here の仕様変更等で使えなくなる可能性があります。
+自己責任で使用してください。
+動作確認を PayPal Here 2.2.1 でしています。
+
 # LICENSE
 The MIT License
 Copyright © 2012-2014 Genecom, Inc. All Rights Reserved.
