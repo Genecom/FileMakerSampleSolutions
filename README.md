@@ -6,19 +6,19 @@ iOS 標準のタイムスタンプピッカーの代替インターフェース�
 実装することができます。  
 実装手順の動画 https://www.youtube.com/watch?v=Ulqs7wz2L_w
 ### 変更履歴
-v1.0.4 (2014/05/26)
-- カスタム関数 SetProperty / GetProperty のバグ修正
-- カスタム関数 HolidayJ に「山の日」を追加
+* v1.0.4 (2014/05/26)
+    * カスタム関数 SetProperty / GetProperty のバグ修正
+    * カスタム関数 HolidayJ に「山の日」を追加
 
 ##■ fmQRcode
 QR Code Generator for JavaScript
 http://d-project.googlecode.com/svn/trunk/misc/qrcode/js/
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
-v1.0.4 (2014/09/05)
-- Windows 用スクリプトステップの見直し
-v1.0.3 (2014/09/01)
-- Windows でもオブジェクトフィールドに画像を保存できるように変更
+* v1.0.4 (2014/09/05)
+    * Windows 用スクリプトステップの見直し  
+* v1.0.3 (2014/09/01)
+    * Windows でもオブジェクトフィールドに画像を保存できるように変更
 
 ##■ InfinitySlideControl
 無限スライドコントロール  
