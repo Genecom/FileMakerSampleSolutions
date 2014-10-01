@@ -6,6 +6,8 @@ iOS 標準のタイムスタンプピッカーの代替インターフェース�
 実装することができます。  
 実装手順の動画 https://www.youtube.com/watch?v=Ulqs7wz2L_w
 ### 変更履歴
+* v1.0.5 (2014/10/01)
+    * 日付選択のカレンダーと時刻選択の時計を javascript で切り替えるように変更
 * v1.0.4 (2014/05/26)
     * カスタム関数 SetProperty / GetProperty のバグ修正
     * カスタム関数 HolidayJ に「山の日」を追加
