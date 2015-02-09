@@ -14,7 +14,7 @@ iOS 標準のタイムスタンプピッカーの代替インターフェース�
 
 ##■ fmQRcode
 QR Code Generator for JavaScript
-http://d-project.googlecode.com/svn/trunk/misc/qrcode/js/
+https://github.com/kazuhikoarase/qrcode-generator
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
 * v1.0.4 (2014/09/05)
