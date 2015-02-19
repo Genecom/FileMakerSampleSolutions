@@ -34,9 +34,13 @@ PayPal Here の仕様変更等で使えなくなる可能性があります。
 自己責任で使用してください。
 動作確認を PayPal Here 2.2.1 でしています。
 
+##■ CheckOverflow
+印刷レイアウトでフィールド枠からテキストがはみ出している場合に、収まるようにフォントサイズを小さくします。
+
+
 # LICENSE
 The MIT License
-Copyright © 2012-2014 Genecom, Inc. All Rights Reserved.
+Copyright © 2012-2015 Genecom, Inc. All Rights Reserved.
 
 以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル（以下「ソフトウェア」）の
 複製を取得するすべての人に対し、ソフトウェアを無制限に扱うことを無償で許可します。
