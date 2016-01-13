@@ -19,6 +19,8 @@ QR Code Generator for JavaScript
 https://github.com/kazuhikoarase/qrcode-generator
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
+* v1.0.6 (2016/01/13)
+    * 余白サイズも指定できるように変更
 * v1.0.5 (2015/07/27)
     * 利用している qrcode.js のバージョンを2014/12/08版に変更
 * v1.0.4 (2014/09/05)
