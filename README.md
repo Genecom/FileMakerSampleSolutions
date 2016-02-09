@@ -6,6 +6,8 @@ iOS 標準のタイムスタンプピッカーの代替インターフェース�
 実装することができます。  
 実装手順の動画 https://www.youtube.com/watch?v=Ulqs7wz2L_w
 ### 変更履歴
+* v1.0.7 (2016/02/09)
+    * FIleMaker iOS App SDK (FIAS) の利用を考慮した変更
 * v1.0.6 (2015/07/27)
     * FileMaker 14 用のレイアウト追加
 * v1.0.5 (2014/10/01)
@@ -19,6 +21,8 @@ QR Code Generator for JavaScript
 https://github.com/kazuhikoarase/qrcode-generator
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
+* v1.0.7 (2016/02/09)
+    * FIleMaker iOS App SDK (FIAS) の利用を考慮した変更
 * v1.0.6 (2016/01/13)
     * 余白サイズも指定できるように変更
 * v1.0.5 (2015/07/27)
