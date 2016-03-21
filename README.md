@@ -6,6 +6,8 @@ iOS 標準のタイムスタンプピッカーの代替インターフェース�
 実装することができます。  
 実装手順の動画 https://www.youtube.com/watch?v=Ulqs7wz2L_w
 ### 変更履歴
+* v1.0.8 (2016/03/21)
+    * フィールド指定の代わりにグローバル変数の指定もできるように変更
 * v1.0.7 (2016/02/09)
     * FIleMaker iOS App SDK (FIAS) の利用を考慮した変更
 * v1.0.6 (2015/07/27)
@@ -21,6 +23,9 @@ QR Code Generator for JavaScript
 https://github.com/kazuhikoarase/qrcode-generator
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
+* v1.0.8 (2016/03/21)
+    * 利用している qrcode.js のバージョンを2016/01/22版に変更
+    * スクリプトの見直し
 * v1.0.7 (2016/02/09)
     * FIleMaker iOS App SDK (FIAS) の利用を考慮した変更
 * v1.0.6 (2016/01/13)
@@ -53,7 +58,7 @@ PayPal Here の仕様変更等で使えなくなる可能性があります。
 
 # LICENSE
 The MIT License
-Copyright © 2012-2015 Genecom, Inc. All Rights Reserved.
+Copyright © 2012-2016 Genecom, Inc. All Rights Reserved.
 
 以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル（以下「ソフトウェア」）の
 複製を取得するすべての人に対し、ソフトウェアを無制限に扱うことを無償で許可します。
