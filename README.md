@@ -57,6 +57,10 @@ PayPal Here の仕様変更等で使えなくなる可能性があります。
 * v1.0.1 (2015/07/27)
   * FileMaker 14　の場合、フォーカス時に外側の影が付いているとその影を含んだサイズになるので、付けないようにレイアウトの修正
 
+##■ SvgToPng
+https://github.com/gabelerner/canvg
+を利用して、SVG を PNG に変換してオブジェクトフィールドに保存します。
+
 
 # LICENSE
 The MIT License
