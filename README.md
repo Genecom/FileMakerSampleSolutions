@@ -60,6 +60,7 @@ PayPal Here の仕様変更等で使えなくなる可能性があります。
 ##■ SvgToPng
 https://github.com/gabelerner/canvg
 を利用して、SVG を PNG に変換してオブジェクトフィールドに保存します。
+* 注意! 画像埋め込み SVG は変換されません。
 
 
 # LICENSE
