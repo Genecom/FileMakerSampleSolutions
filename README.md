@@ -6,6 +6,8 @@ iOS 標準のタイムスタンプピッカーの代替インターフェース�
 実装することができます。  
 実装手順の動画 https://www.youtube.com/watch?v=Ulqs7wz2L_w
 ### 変更履歴
+* v1.0.10 (2016/06/24)
+    * FMPUrlScheme カスタム関数を変更
 * v1.0.9 (2016/03/23)
     * 選択不可日が設定されている場合の前月次月/前年次年へのリンクを変更
 * v1.0.8 (2016/03/21)
@@ -25,6 +27,8 @@ QR Code Generator for JavaScript
 https://github.com/kazuhikoarase/qrcode-generator
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
+* v1.0.9 (2016/06/24)
+    * FMPUrlScheme カスタム関数に該当するステップを変更
 * v1.0.8 (2016/03/21)
     * 利用している qrcode.js のバージョンを2016/01/22版に変更
     * スクリプトの見直し
@@ -61,6 +65,9 @@ PayPal Here の仕様変更等で使えなくなる可能性があります。
 https://github.com/gabelerner/canvg
 を利用して、SVG を PNG に変換してオブジェクトフィールドに保存します。
 * 注意! 画像埋め込み SVG は変換されません。
+### 変更履歴
+* v1.0.2 (2016/06/24)
+    * FMPUrlScheme カスタム関数に該当するステップを変更
 
 
 # LICENSE
