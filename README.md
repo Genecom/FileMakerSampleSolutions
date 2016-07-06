@@ -43,6 +43,13 @@ https://github.com/kazuhikoarase/qrcode-generator
 * v1.0.3 (2014/09/01)
     * Windows でもオブジェクトフィールドに画像を保存できるように変更
 
+##■ fmBarCode
+JsBarcode
+https://github.com/lindell/JsBarcode
+を利用して FileMaker の値からバーコードを作成します。
+対応するバーコード規格:
+CODE128 | CODE39 | EAN13 | EAN8 | UPC | ITF14 | ITF | pharmacode
+
 ##■ InfinitySlideControl
 無限スライドコントロール  
 3枚のスライドコントロールパネルを使って擬似的な無限スライドコントロールを作成します。
