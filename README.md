@@ -27,6 +27,8 @@ QR Code Generator for JavaScript
 https://github.com/kazuhikoarase/qrcode-generator
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
+* v1.0.10 (2016/08/25)
+    * Windows で対象レコードの QR コードを作成する際のサンプルスクリプトを追加
 * v1.0.9 (2016/06/24)
     * FMPUrlScheme カスタム関数に該当するステップを変更
 * v1.0.8 (2016/03/21)
@@ -49,6 +51,9 @@ https://github.com/lindell/JsBarcode
 を利用して FileMaker の値からバーコードを作成します。
 対応するバーコード規格:
 CODE128 | CODE39 | EAN13 | EAN8 | UPC | ITF14 | ITF | pharmacode
+### 変更履歴
+* v1.0.10 (2016/08/25)
+    * Windows で対象レコードのバーコードを作成する際のサンプルスクリプトを追加
 
 ##■ InfinitySlideControl
 無限スライドコントロール  
@@ -66,12 +71,12 @@ PayPal Here の仕様変更等で使えなくなる可能性があります。
 印刷レイアウトでフィールド枠からテキストがはみ出している場合に、収まるようにフォントサイズを小さくします。
 ### 変更履歴
 * v1.0.1 (2015/07/27)
-  * FileMaker 14　の場合、フォーカス時に外側の影が付いているとその影を含んだサイズになるので、付けないようにレイアウトの修正
+    * FileMaker 14　の場合、フォーカス時に外側の影が付いているとその影を含んだサイズになるので、付けないようにレイアウトの修正
 
 ##■ SvgToPng
 https://github.com/gabelerner/canvg
-を利用して、SVG を PNG に変換してオブジェクトフィールドに保存します。
-* 注意! 画像埋め込み SVG は変換されません。
+を利用して、SVG を PNG に変換してオブジェクトフィールドに保存します。  
+__注意!__ 画像埋め込み SVG は変換されません。
 ### 変更履歴
 * v1.0.2 (2016/06/24)
     * FMPUrlScheme カスタム関数に該当するステップを変更
