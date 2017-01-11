@@ -15,7 +15,7 @@ iOS 標準のタイムスタンプピッカーの代替インターフェース�
 * v1.0.8 (2016/03/21)
     * フィールド指定の代わりにグローバル変数の指定もできるように変更
 * v1.0.7 (2016/02/09)
-    * FIleMaker iOS App SDK (FIAS) の利用を考慮した変更
+    * FileMaker iOS App SDK (FIAS) の利用を考慮した変更
 * v1.0.6 (2015/07/27)
     * FileMaker 14 用のレイアウト追加
 * v1.0.5 (2014/10/01)
@@ -29,6 +29,9 @@ QR Code Generator for JavaScript
 https://github.com/kazuhikoarase/qrcode-generator
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
+* v1.1.0 (2017/01/11)
+    * 利用している qrcode.js のバージョンを2017/01/04版に変更
+    * encoding mode サポート（自動判別）/SVG 対応
 * v1.0.10 (2016/08/25)
     * Windows で対象レコードの QR コードを作成する際のサンプルスクリプトを追加
 * v1.0.9 (2016/06/24)
@@ -86,7 +89,7 @@ __注意!__ 画像埋め込み SVG は変換されません。
 
 # LICENSE
 The MIT License
-Copyright © 2012-2016 Genecom, Inc. All Rights Reserved.
+Copyright © 2012-2017 Genecom, Inc. All Rights Reserved.
 
 以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル（以下「ソフトウェア」）の
 複製を取得するすべての人に対し、ソフトウェアを無制限に扱うことを無償で許可します。
