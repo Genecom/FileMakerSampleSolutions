@@ -29,6 +29,8 @@ QR Code Generator for JavaScript
 https://github.com/kazuhikoarase/qrcode-generator
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
+* v1.1.1 (2017/03/15)
+    * 軽微な修正
 * v1.1.0 (2017/01/11)
     * 利用している qrcode.js のバージョンを2017/01/04版に変更
     * encoding mode サポート（自動判別）/SVG 対応
@@ -57,6 +59,8 @@ https://github.com/lindell/JsBarcode
 対応するバーコード規格:
 CODE128 | CODE39 | EAN13 | EAN8 | UPC | ITF14 | ITF | pharmacode
 ### 変更履歴
+* v1.1.0 (2017/03/15)
+    * 利用している JsBarcode.js のバージョンを v3.5.8 に変更し、結果を SVG でも受け取れるように変更
 * v1.0.10 (2016/08/25)
     * Windows で対象レコードのバーコードを作成する際のサンプルスクリプトを追加
 
