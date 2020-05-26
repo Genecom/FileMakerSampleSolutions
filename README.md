@@ -1,12 +1,15 @@
 # FileMakerSampleSolutions
 FileMaker サンプルソリューション
+### :warning: <span style="color:red;font-weight: bold;">FileMaker 19 以降</span>では WebViewer 内の javascript から FileMaker.PerformScript() を実行するようにしています。Web ビューアの設定で <span style="color:red;font-weight: bold;">__[JavaScript による FileMaker スクリプトの実行を許可]__</span> にチェックが入っている必要があります。
 
-### :warning: <span style="color:red;font-weight: bold;">FileMaker 16 以降</span>で、fmp:// からスクリプトを実行させる場合は、拡張アクセス権 <span style="color:red;font-weight: bold;">__[fmurlscript]__</span> の設定が必要になります。
+### :warning: <span style="color:red;font-weight: bold;">FileMaker 16 - 18 </span>では、fmp:// からスクリプトを実行させる場合は、拡張アクセス権 <span style="color:red;font-weight: bold;">__[fmurlscript]__</span> の設定が必要になります。
 
 ## ■ TimestampPicker
 iOS 標準のタイムスタンプピッカーの代替インターフェースをコピー&ペーストだけで他のソリューションに実装することができます。  
 * 実装手順の動画 https://www.youtube.com/watch?v=d0CGZuOJSjU
 ### 変更履歴
+* v1.3 (2020/05/21)
+    * 	FM 19 の JavaScript web viewer integration に対応
 * v1.2.5 (2019/05/23)
     * 	fmp URL スキームの変更
 * v1.2.4 (2019/01/28)
@@ -42,6 +45,8 @@ iOS 標準のタイムスタンプピッカーの代替インターフェース�
 * 実装手順の動画 https://www.youtube.com/watch?v=yDWYm2JdhNs
 
 ### 変更履歴
+* v1.0.4 (2020/05/21)
+    * FM 19 の JavaScript web viewer integration に対応
 * v1.0.3 (2019/05/23)
     * File-Base スクリプトステップに変更
     * CustomFormatExport18.fmp12 は 18 以降のみで利用できます）
@@ -56,6 +61,8 @@ QR Code Generator for JavaScript
 https://github.com/kazuhikoarase/qrcode-generator  
 を利用して FileMaker の値から QR コードを作成します。
 ### 変更履歴
+* v2.0 (2020/05/21)
+    * FM 19 の JavaScript web viewer integration を利用するよう全面的に書き直し（FM19以降のみ）
 * v1.1.4 (2019/05/23)
     * fmp URL スキームの変更
     * qrcode.js のバージョンを 2019-02-15 版（v1.4.3）に変更
@@ -78,8 +85,10 @@ JsBarcode
 https://github.com/lindell/JsBarcode  
 を利用して FileMaker の値からバーコードを作成します。  
 対応するバーコード規格:  
-CODE128 | CODE39 | EAN13 | EAN8 | UPC | ITF14 | ITF | pharmacode
+CODE128 | CODE128A | CODE128B | CODE128C | CODE39 | JAN13 | JAN8 | JAN5 | JAN2 | UPC | ITF14 | MSI | MSI10 | MSI11 | MSI1010 | MSI1110 | pharmacode | codabar
 ### 変更履歴
+* v2.0 (2020/05/21)
+    * FM 19 の JavaScript web viewer integration を利用するよう全面的に書き直し（FM19以降のみ）
 * v1.1.4 (2019/05/23)
     * fmp URL スキームの変更
 * v1.1.3 (2017/09/05)
@@ -92,11 +101,13 @@ CODE128 | CODE39 | EAN13 | EAN8 | UPC | ITF14 | ITF | pharmacode
     * Windows で対象レコードのバーコードを作成する際のサンプルスクリプトを追加
 
 ## ■ CropImage
-JsCrop.js  
+Jcrop.js  
 http://github.com/tapmodo/Jcrop  
 を利用して、画像の任意の領域を切り抜きます。  
 初出 : https://community.filemaker.com/message/167587
 ### 変更履歴
+* v2.0 (2020/05/21)
+    * FM 19 の JavaScript web viewer integration に対応
 * v1.0.3 (2019/05/23)
     * fmp URL スキームの変更
 * v1.0.2 (2017/09/05)
@@ -109,6 +120,8 @@ https://github.com/gabelerner/canvg
 を利用して、SVG を PNG に変換してオブジェクトフィールドに保存します。  
 __注意!__ 画像埋め込み SVG は変換されません。
 ### 変更履歴
+* v2.0 (2020/05/21)
+    * FM 19 の JavaScript web viewer integration を利用するよう全面的に書き直し（FM19以降のみ）
 * v1.0.5 (2019/05/23)
     * fmp URL スキームの変更
     * canvg.js を 2019-05-18 版に変更
@@ -124,6 +137,8 @@ Colorwheel
 http://jweir.github.com/colorwheel  
 を利用したカラーピッカーです。
 ### 変更履歴
+* v1.1 (2020/05/21)
+    * FM 19 の JavaScript web viewer integration に対応
 * v1.0.5 (2017/05/23)
     * fmp URL スキームの変更
     * カラーホイールのサイズを 300px, 225px で利用できるように変更
